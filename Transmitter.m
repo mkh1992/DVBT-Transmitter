@@ -4,7 +4,7 @@ clc
 addpath('Code Layer','TPScreator','Constelation Demodulator','OFDMSymbolCreate')
 %% Transmission Parameter Signalling
 cellID = 'NOT Transmitted'; % options : 'NOT Transmitted' , a vector with 16 bits left-msb
-constellation = 'QPSK';
+constellation = '64QAM';
 CR = '2/3';
 GuardInterval = '1/8';
 mode = '8k';
